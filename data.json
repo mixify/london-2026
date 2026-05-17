@@ -1,0 +1,977 @@
+{
+  "categories": {
+    "hotel": {
+      "label": "Hotels",
+      "color": "#6366f1",
+      "emoji": "🏨"
+    },
+    "show": {
+      "label": "Venues & Exhibitions",
+      "color": "#ec4899",
+      "emoji": "🎵"
+    },
+    "heavy": {
+      "label": "Restaurants",
+      "color": "#ef4444",
+      "emoji": "🍽️"
+    },
+    "light": {
+      "label": "Quick Eats & Breakfast",
+      "color": "#f97316",
+      "emoji": "🥪"
+    },
+    "cafe": {
+      "label": "Cafes",
+      "color": "#a16207",
+      "emoji": "☕"
+    },
+    "alcohol": {
+      "label": "Bars & Pubs",
+      "color": "#8b5cf6",
+      "emoji": "🍸"
+    },
+    "etc": {
+      "label": "Shops, Books & Oddities",
+      "color": "#059669",
+      "emoji": "📀"
+    }
+  },
+  "places": [
+    {
+      "id": 0,
+      "name": "Town Hall Hotel",
+      "query": "Town Hall Hotel London",
+      "category": "hotel",
+      "note": "1순위. Bethnal Green. 구 시청 건물, 건축/아카이브 감성. Café OTO·Dalston·Shoreditch 접근성 좋음",
+      "lat": 51.5279,
+      "lng": -0.0552
+    },
+    {
+      "id": 1,
+      "name": "The Culpeper",
+      "query": "The Culpeper London",
+      "category": "hotel",
+      "note": "Spitalfields. pub+bistro+5rooms+rooftop. Brick Lane·Shoreditch 접근성",
+      "lat": 51.5168,
+      "lng": -0.0742
+    },
+    {
+      "id": 2,
+      "name": "The Standard",
+      "query": "The Standard London",
+      "category": "hotel",
+      "note": "King's Cross. Brutalist 디자인 호텔. St Pancras 옆. 중앙권 이상한 낮 일정용",
+      "lat": 51.5318,
+      "lng": -0.124
+    },
+    {
+      "id": 3,
+      "name": "Bermonds Locke",
+      "query": "Bermonds Locke London",
+      "category": "hotel",
+      "note": "Bermondsey. 아파트형. MOT/Ormside/Peckham 남쪽 밤 동선용",
+      "lat": 51.4995,
+      "lng": -0.078
+    },
+    {
+      "id": 4,
+      "name": "One Hundred",
+      "query": "One Hundred Shoreditch London",
+      "category": "hotel",
+      "note": "Shoreditch High Street. 편하지만 상업화됨. Town Hall > Culpeper > 여기 순",
+      "lat": 51.5246,
+      "lng": -0.0773
+    },
+    {
+      "id": 5,
+      "name": "Boundary London",
+      "query": "Boundary London Shoreditch",
+      "category": "hotel",
+      "note": "Redchurch St. Victorian warehouse 17실. Conran 디자인. 루프탑",
+      "lat": 51.5237,
+      "lng": -0.0729
+    },
+    {
+      "id": 6,
+      "name": "Café OTO",
+      "query": "Café OTO London",
+      "category": "show",
+      "note": "취향 1순위. 7/10 I-D.A Projects (A+), 7/13 Tomeka Reid (A), 7/14-15 James Brandon Lewis (A-), 7/17-18 Kurdish Sound Archive (A-)",
+      "lat": 51.5498,
+      "lng": -0.0752
+    },
+    {
+      "id": 7,
+      "name": "Royal Albert Hall",
+      "query": "Royal Albert Hall London",
+      "category": "show",
+      "note": "BBC Proms — 7/17 First Night Yunchan Lim (A), 7/18 Prog Rock, 7/19 Boléro (A)",
+      "lat": 51.5009,
+      "lng": -0.1774
+    },
+    {
+      "id": 8,
+      "name": "Barbican Centre",
+      "query": "Barbican Centre London",
+      "category": "show",
+      "note": "Project a Black Planet 전시 (6/11–9/6), Album Art Analysis 7/10",
+      "lat": 51.52,
+      "lng": -0.0937
+    },
+    {
+      "id": 9,
+      "name": "Hayward Gallery",
+      "query": "Hayward Gallery London",
+      "category": "show",
+      "note": "Anish Kapoor (6/16–10/18). Southbank 동선",
+      "lat": 51.5064,
+      "lng": -0.1158
+    },
+    {
+      "id": 10,
+      "name": "Tate Modern",
+      "query": "Tate Modern London",
+      "category": "show",
+      "note": "Tracey Emin / Frida Kahlo 전시",
+      "lat": 51.5076,
+      "lng": -0.0994
+    },
+    {
+      "id": 11,
+      "name": "Design Museum",
+      "query": "Design Museum London",
+      "category": "show",
+      "note": "Wes Anderson: The Archives (~7/26). 취향 기준 전시 1순위",
+      "lat": 51.4995,
+      "lng": -0.1721
+    },
+    {
+      "id": 12,
+      "name": "Serpentine Gallery",
+      "query": "Serpentine Gallery London",
+      "category": "show",
+      "note": "David Hockney (~8/23). Hyde Park / Royal Albert Hall 동선",
+      "lat": 51.505,
+      "lng": -0.1749
+    },
+    {
+      "id": 13,
+      "name": "Ormside Projects",
+      "query": "Ormside Projects London",
+      "category": "show",
+      "note": "South Bermondsey. arts & music project space. TheOverload식 취향 필수",
+      "lat": 51.4878,
+      "lng": -0.056
+    },
+    {
+      "id": 14,
+      "name": "Venue MOT",
+      "query": "Venue MOT London",
+      "category": "show",
+      "note": "South Bermondsey. industrial estate 클럽. 젊은 아티스트/프로모터",
+      "lat": 51.487,
+      "lng": -0.0545
+    },
+    {
+      "id": 15,
+      "name": "Avalon Cafe Bermondsey",
+      "query": "Avalon Cafe Bermondsey London",
+      "category": "show",
+      "note": "South Bermondsey. café/music/arts centre 하이브리드. strictly not a club",
+      "lat": 51.479,
+      "lng": -0.047
+    },
+    {
+      "id": 16,
+      "name": "FOLD London Canning Town",
+      "query": "FOLD London Canning Town",
+      "category": "show",
+      "note": "라인업 맞으면 강추. 24h dance floor, 900 cap. 라인업 보고 가는 곳",
+      "lat": 51.513,
+      "lng": -0.007
+    },
+    {
+      "id": 17,
+      "name": "Hundred Years Gallery",
+      "query": "Hundred Years Gallery London",
+      "category": "show",
+      "note": "Hoxton. 소규모 실험음악/즉흥/사운드아트. Café OTO보다 더 작은 갤러리형",
+      "lat": 51.529,
+      "lng": -0.081
+    },
+    {
+      "id": 18,
+      "name": "The Horse Hospital",
+      "query": "The Horse Hospital London",
+      "category": "show",
+      "note": "Bloomsbury. underground/avant-garde 아트 베뉴. 이상한 낮/저녁 일정",
+      "lat": 51.523,
+      "lng": -0.1235
+    },
+    {
+      "id": 19,
+      "name": "BFI Southbank",
+      "query": "BFI Southbank London",
+      "category": "show",
+      "note": "world cinema, archive, experimental film",
+      "lat": 51.5065,
+      "lng": -0.1145
+    },
+    {
+      "id": 20,
+      "name": "ICA",
+      "query": "ICA London",
+      "category": "show",
+      "note": "contemporary culture. film/music/exhibitions/talks 교차",
+      "lat": 51.506,
+      "lng": -0.131
+    },
+    {
+      "id": 21,
+      "name": "IKLECTIK Peckham Levels",
+      "query": "IKLECTIK Peckham Levels London",
+      "category": "show",
+      "note": "Peckham Levels. sonic laboratory. 모듈러 신스/사운드아트/노이즈. Cafe OTO의 남쪽 쌍둥이",
+      "lat": 51.47,
+      "lng": -0.0665
+    },
+    {
+      "id": 22,
+      "name": "SET",
+      "query": "SET Dalston London",
+      "category": "show",
+      "note": "27a Dalston Lane. 매일 밤 프로그래밍. 실험/전자/즉흥. Bird On The Wire",
+      "lat": 51.548,
+      "lng": -0.074
+    },
+    {
+      "id": 23,
+      "name": "The Carpet Shop",
+      "query": "The Carpet Shop Peckham London",
+      "category": "show",
+      "note": "Peckham. Corsica Studios 팀. Funktion-One. 7/12 Oroko Radio night 확정",
+      "lat": 51.471,
+      "lng": -0.068
+    },
+    {
+      "id": 24,
+      "name": "EartH",
+      "query": "EartH Hackney London",
+      "category": "show",
+      "note": "Dalston. multi-venue arts hub. Theatre+Hall+Kitchen 3개 공간",
+      "lat": 51.5485,
+      "lng": -0.0755
+    },
+    {
+      "id": 25,
+      "name": "Matchstick Piehouse Deptford",
+      "query": "Matchstick Piehouse Deptford London",
+      "category": "show",
+      "note": "Deptford. 150-cap workers' co-op. 2025 재오픈. DIY/풀뿌리",
+      "lat": 51.474,
+      "lng": -0.027
+    },
+    {
+      "id": 26,
+      "name": "Chisenhale Gallery",
+      "query": "Chisenhale Gallery London",
+      "category": "show",
+      "note": "Bow. non-profit. Jasper Marsalis 전시 7/10 오픈. Town Hall Hotel 도보권",
+      "lat": 51.532,
+      "lng": -0.041
+    },
+    {
+      "id": 27,
+      "name": "Whitechapel Gallery",
+      "query": "Whitechapel Gallery London",
+      "category": "show",
+      "note": "Whitechapel. 1901 Arts & Crafts. Backyard Biennial 여름 페스티벌",
+      "lat": 51.5155,
+      "lng": -0.0705
+    },
+    {
+      "id": 28,
+      "name": "Gasworks Gallery",
+      "query": "Gasworks Gallery London",
+      "category": "show",
+      "note": "Vauxhall. non-profit+레지던시. Thuy Tien Nguyen 7/9 오픈",
+      "lat": 51.486,
+      "lng": -0.118
+    },
+    {
+      "id": 29,
+      "name": "Auto Italia South East",
+      "query": "Auto Italia South East London",
+      "category": "show",
+      "note": "Bethnal Green. 아티스트 런 프로젝트 스페이스. Town Hall Hotel 근처",
+      "lat": 51.527,
+      "lng": -0.06
+    },
+    {
+      "id": 30,
+      "name": "White Cube Bermondsey",
+      "query": "White Cube Bermondsey London",
+      "category": "show",
+      "note": "Bermondsey St. 유럽 최대 상업 갤러리. Georg Baselitz 6월~8월",
+      "lat": 51.499,
+      "lng": -0.083
+    },
+    {
+      "id": 31,
+      "name": "South London Gallery",
+      "query": "South London Gallery Peckham",
+      "category": "show",
+      "note": "Peckham Rd. 1891~. Fire Station 별관 포함",
+      "lat": 51.473,
+      "lng": -0.079
+    },
+    {
+      "id": 32,
+      "name": "Wellcome Collection",
+      "query": "Wellcome Collection London",
+      "category": "show",
+      "note": "Euston. 무료. Audrey Amiss + Rudy Loewe 7/10 오픈. 의학/몸/죽음. 1.5-2시간",
+      "lat": 51.5258,
+      "lng": -0.134
+    },
+    {
+      "id": 33,
+      "name": "Singburi Royal Thai",
+      "query": "Singburi Royal Thai Shoreditch London",
+      "category": "heavy",
+      "note": "cult Thai. Leytonstone에서 Shoreditch로 이전. Montacute Yards",
+      "lat": 51.524,
+      "lng": -0.077
+    },
+    {
+      "id": 34,
+      "name": "Mangal 2",
+      "query": "Mangal 2 Dalston London",
+      "category": "heavy",
+      "note": "Dalston ocakbasi. Café OTO/Brilliant Corners 동선",
+      "lat": 51.549,
+      "lng": -0.073
+    },
+    {
+      "id": 35,
+      "name": "Rochelle Canteen",
+      "query": "Rochelle Canteen Shoreditch London",
+      "category": "heavy",
+      "note": "옛 학교 bike shed. 계절 메뉴, 조용한 런던 감성 점심",
+      "lat": 51.526,
+      "lng": -0.0755
+    },
+    {
+      "id": 36,
+      "name": "Brilliant Corners",
+      "query": "Brilliant Corners Dalston London",
+      "category": "heavy",
+      "note": "Japanese restaurant + music venue. audiophile sound system, vinyl DJs, izakaya food",
+      "lat": 51.547,
+      "lng": -0.075
+    },
+    {
+      "id": 37,
+      "name": "Jumbi",
+      "query": "Jumbi Peckham London",
+      "category": "heavy",
+      "note": "Afro-Caribbean hi-fi bar & restaurant. 남쪽 일정 1순위",
+      "lat": 51.471,
+      "lng": -0.066
+    },
+    {
+      "id": 38,
+      "name": "St. JOHN Restaurant",
+      "query": "St. JOHN Restaurant London",
+      "category": "heavy",
+      "note": "nose-to-tail cuisine. 런던 기관",
+      "lat": 51.52,
+      "lng": -0.102
+    },
+    {
+      "id": 39,
+      "name": "Quality Chop House",
+      "query": "Quality Chop House London",
+      "category": "heavy",
+      "note": "1869년부터. 오래된 British cuisine",
+      "lat": 51.524,
+      "lng": -0.109
+    },
+    {
+      "id": 40,
+      "name": "Casa Fofo",
+      "query": "Casa Fofo Dalston London",
+      "category": "heavy",
+      "note": "Dalston. 8코스 서프라이즈 테이스팅 65GBP. 매일 아침 새 메뉴. 예약 필요",
+      "lat": 51.5505,
+      "lng": -0.0665
+    },
+    {
+      "id": 41,
+      "name": "Angelina",
+      "query": "Angelina Dalston London",
+      "category": "heavy",
+      "note": "56 Dalston Lane. 이탈리안-일본 카이세키 13코스. 5주마다 메뉴 교체",
+      "lat": 51.548,
+      "lng": -0.074
+    },
+    {
+      "id": 42,
+      "name": "Pidgin",
+      "query": "Pidgin Hackney London",
+      "category": "heavy",
+      "note": "52 Wilton Way. 매주 바뀌는 4코스. Michelin 추천",
+      "lat": 51.541,
+      "lng": -0.057
+    },
+    {
+      "id": 43,
+      "name": "Oren",
+      "query": "Oren Dalston London",
+      "category": "heavy",
+      "note": "Shacklewell Lane. 지중해/중동 sharing plates. 콘크리트 산업 공간",
+      "lat": 51.551,
+      "lng": -0.069
+    },
+    {
+      "id": 44,
+      "name": "The Good Front Room",
+      "query": "The Good Front Room Dalston London",
+      "category": "heavy",
+      "note": "Dalston Square. 카리비안 파인 다이닝 small plates. 2026.2 신규 오픈",
+      "lat": 51.547,
+      "lng": -0.0735
+    },
+    {
+      "id": 45,
+      "name": "Levan",
+      "query": "Levan Peckham London",
+      "category": "heavy",
+      "note": "Modern European bistro. comté fries. Peckham Rye 근처",
+      "lat": 51.469,
+      "lng": -0.069
+    },
+    {
+      "id": 46,
+      "name": "Hausu",
+      "query": "Hausu Peckham London",
+      "category": "heavy",
+      "note": "전 기차역 대합실. 아시안x유럽 small plates. 컬트 일본 호러영화 이름",
+      "lat": 51.472,
+      "lng": -0.065
+    },
+    {
+      "id": 47,
+      "name": "40 Maltby Street",
+      "query": "40 Maltby Street London",
+      "category": "heavy",
+      "note": "Bermondsey. 와인 창고 레스토랑. walk-in only. natural wine. 수-토",
+      "lat": 51.498,
+      "lng": -0.079
+    },
+    {
+      "id": 48,
+      "name": "BunBunBun Vietnamese",
+      "query": "BunBunBun Vietnamese London",
+      "category": "heavy",
+      "note": "134B Kingsland Rd. 런던 유일 bun cha Hanoi. Kingsland Rd 베트남 1순위",
+      "lat": 51.538,
+      "lng": -0.078
+    },
+    {
+      "id": 49,
+      "name": "E Pellicci",
+      "query": "E Pellicci Bethnal Green London",
+      "category": "light",
+      "note": "아침/브런치 1순위. 100년+ East London caff. Britalian",
+      "lat": 51.527,
+      "lng": -0.059
+    },
+    {
+      "id": 50,
+      "name": "The Dusty Knuckle",
+      "query": "The Dusty Knuckle Dalston London",
+      "category": "light",
+      "note": "Dalston 주차장. 소셜 엔터프라이즈 베이커리. 감자 사워도우. 매일 매진",
+      "lat": 51.546,
+      "lng": -0.072
+    },
+    {
+      "id": 51,
+      "name": "Towpath Cafe",
+      "query": "Towpath Cafe London",
+      "category": "light",
+      "note": "Regent's Canal, De Beauvoir. 계절 캐널사이드 카페. Vittles 챔피언. 3-11월. walk-in only",
+      "lat": 51.538,
+      "lng": -0.077
+    },
+    {
+      "id": 52,
+      "name": "Pavilion Café Victoria Park",
+      "query": "Pavilion Café Victoria Park London",
+      "category": "light",
+      "note": "Victoria Park 호숫가. classic caff. 로컬 전설",
+      "lat": 51.536,
+      "lng": -0.038
+    },
+    {
+      "id": 53,
+      "name": "Brunswick East",
+      "query": "Brunswick East Dalston London",
+      "category": "light",
+      "note": "gochujang 에그번. 모던하지만 허세 없음",
+      "lat": 51.55,
+      "lng": -0.072
+    },
+    {
+      "id": 54,
+      "name": "Satan's Whiskers",
+      "query": "Satan's Whiskers Bethnal Green London",
+      "category": "alcohol",
+      "note": "동쪽 칵테일 1순위. daily changing menu, hip-hop soundtrack",
+      "lat": 51.527,
+      "lng": -0.06
+    },
+    {
+      "id": 55,
+      "name": "A Bar with Shapes for a Name",
+      "query": "A Bar with Shapes for a Name London",
+      "category": "alcohol",
+      "note": "Bauhaus/미니멀 디자인 칵테일 바. functional minimalism",
+      "lat": 51.531,
+      "lng": -0.064
+    },
+    {
+      "id": 56,
+      "name": "The Last Tuesday Society",
+      "query": "The Last Tuesday Society London",
+      "category": "alcohol",
+      "note": "Hackney. Museum of Curiosities + Absinthe Parlour. 가장 weird한 술집",
+      "lat": 51.543,
+      "lng": -0.049
+    },
+    {
+      "id": 57,
+      "name": "Noble Rot Lamb's Conduit Street",
+      "query": "Noble Rot Lamb's Conduit Street London",
+      "category": "alcohol",
+      "note": "와인 바/레스토랑. 1701년 타운하우스",
+      "lat": 51.522,
+      "lng": -0.118
+    },
+    {
+      "id": 58,
+      "name": "Space Talk",
+      "query": "Space Talk London",
+      "category": "alcohol",
+      "note": "Barbican 근처. DJ set/listening session. audiophile scene",
+      "lat": 51.521,
+      "lng": -0.095
+    },
+    {
+      "id": 59,
+      "name": "Goodbye Horses De Beauvoir",
+      "query": "Goodbye Horses De Beauvoir London",
+      "category": "alcohol",
+      "note": "De Beauvoir. 리스닝 바 최대 발견. Tannoy Lancaster 쿼드. vinyl 4000장. natural wine. BC 졸업생",
+      "lat": 51.54,
+      "lng": -0.078
+    },
+    {
+      "id": 60,
+      "name": "Chiave",
+      "query": "Chiave Shoreditch London",
+      "category": "alcohol",
+      "note": "Redchurch St. Arda Audio 커스텀 스피커. 칵테일+DJ. 2층 구조",
+      "lat": 51.5237,
+      "lng": -0.0729
+    },
+    {
+      "id": 61,
+      "name": "Waltz Bar",
+      "query": "Waltz Bar Shoreditch London",
+      "category": "alcohol",
+      "note": "Scrutton St. 일본식 칵테일+재즈. Bill Evans 미학. 72절기 메뉴. 2025~",
+      "lat": 51.522,
+      "lng": -0.083
+    },
+    {
+      "id": 62,
+      "name": "Coupette",
+      "query": "Coupette Bethnal Green London",
+      "category": "alcohol",
+      "note": "423 Bethnal Green Rd. World's 50 Best. Champagne Piña Colada. Satan's Whiskers 대안 1순위",
+      "lat": 51.527,
+      "lng": -0.0585
+    },
+    {
+      "id": 63,
+      "name": "The Palm Tree",
+      "query": "The Palm Tree London",
+      "category": "alcohol",
+      "note": "Mile End Park. THE 진짜 East End 펍. Grade II. 40년+ 같은 가족. 주말 재즈. 현금만. 블리츠 생존",
+      "lat": 51.531,
+      "lng": -0.038
+    },
+    {
+      "id": 64,
+      "name": "Chesham Arms",
+      "query": "Chesham Arms London",
+      "category": "alcohol",
+      "note": "Homerton. 커뮤니티가 구출한 150년 펍. CAMRA Cider Pub of the Year 2025. 벽난로",
+      "lat": 51.546,
+      "lng": -0.044
+    },
+    {
+      "id": 65,
+      "name": "The Laughing Heart",
+      "query": "The Laughing Heart Hackney London",
+      "category": "alcohol",
+      "note": "277 Hackney Rd. natural wine. 셰프/바텐더 단골. 2am까지",
+      "lat": 51.531,
+      "lng": -0.066
+    },
+    {
+      "id": 66,
+      "name": "World of Echo Records 128 Columbia Road",
+      "query": "World of Echo Records 128 Columbia Road London",
+      "category": "etc",
+      "note": "레코드샵 1순위. 128 Columbia Road. experimental/post-punk/dub/leftfield. Thu-Sun만",
+      "lat": 51.529,
+      "lng": -0.0655
+    },
+    {
+      "id": 67,
+      "name": "Honest Jon's Records Portobello Road",
+      "query": "Honest Jon's Records Portobello Road London",
+      "category": "etc",
+      "note": "1974년. jazz/reggae/soul/funk/outernational. Coal Drops Yard 지점도 있음",
+      "lat": 51.515,
+      "lng": -0.205
+    },
+    {
+      "id": 68,
+      "name": "Phonica Records Soho",
+      "query": "Phonica Records Soho London",
+      "category": "etc",
+      "note": "클럽/전자음악 vinyl 1순위. Soho",
+      "lat": 51.514,
+      "lng": -0.137
+    },
+    {
+      "id": 69,
+      "name": "Donlon Books",
+      "query": "Donlon Books London",
+      "category": "etc",
+      "note": "Broadway Market. 아트북/사진/문화이론/카운터컬처. The Wire stockist",
+      "lat": 51.535,
+      "lng": -0.0605
+    },
+    {
+      "id": 70,
+      "name": "Tenderbooks",
+      "query": "Tenderbooks London",
+      "category": "etc",
+      "note": "Cecil Court. artist books/zines/photobooks. 중앙권 예술서점",
+      "lat": 51.511,
+      "lng": -0.127
+    },
+    {
+      "id": 71,
+      "name": "Housmans Bookshop",
+      "query": "Housmans Bookshop London",
+      "category": "etc",
+      "note": "King's Cross. 1945년~. 영국 최장수 radical bookshop",
+      "lat": 51.531,
+      "lng": -0.124
+    },
+    {
+      "id": 72,
+      "name": "Novelty Automation",
+      "query": "Novelty Automation London",
+      "category": "etc",
+      "note": "Holborn. satirical home-made arcade machines. 괴상한 인디 아케이드",
+      "lat": 51.518,
+      "lng": -0.1185
+    },
+    {
+      "id": 73,
+      "name": "Viktor Wynd Museum of Curiosities",
+      "query": "Viktor Wynd Museum of Curiosities London",
+      "category": "etc",
+      "note": "Hackney. 오컬트/taxidermy/curiosity cabinet. Last Tuesday Society 병행",
+      "lat": 51.543,
+      "lng": -0.049
+    },
+    {
+      "id": 74,
+      "name": "God's Own Junkyard",
+      "query": "God's Own Junkyard London",
+      "category": "etc",
+      "note": "Walthamstow. 유럽 최대 네온 컬렉션. salvaged signs/movie props",
+      "lat": 51.588,
+      "lng": -0.02
+    },
+    {
+      "id": 75,
+      "name": "Dennis Severs' House",
+      "query": "Dennis Severs' House London",
+      "category": "etc",
+      "note": "Spitalfields. 1724년 집을 imaginary Huguenot family로 재구성. 시간 캡슐",
+      "lat": 51.52,
+      "lng": -0.075
+    },
+    {
+      "id": 76,
+      "name": "Sir John Soane's Museum",
+      "query": "Sir John Soane's Museum London",
+      "category": "etc",
+      "note": "Holborn. 건축가의 집+수집광 미로. 1837년 상태 보존",
+      "lat": 51.517,
+      "lng": -0.1175
+    },
+    {
+      "id": 77,
+      "name": "Kristina Records",
+      "query": "Kristina Records London",
+      "category": "etc",
+      "note": "194 Well St, Homerton. ambient/drone/avant-garde jazz. Wire stockist",
+      "lat": 51.545,
+      "lng": -0.044
+    },
+    {
+      "id": 78,
+      "name": "Inverted Audio Record Store",
+      "query": "Inverted Audio Record Store Peckham London",
+      "category": "etc",
+      "note": "Holdrons Arcade, Rye Lane. dub techno/ambient 특화. Basic Channel, Astral Industries. 목-토 12-6",
+      "lat": 51.47,
+      "lng": -0.0665
+    },
+    {
+      "id": 79,
+      "name": "Sounds of the Universe Soho",
+      "query": "Sounds of the Universe Soho London",
+      "category": "etc",
+      "note": "7 Broadwick St. Soul Jazz 매장. dub/reggae/world/funk+전자. 지하 재즈 레어",
+      "lat": 51.514,
+      "lng": -0.136
+    },
+    {
+      "id": 80,
+      "name": "Claire de Rouen Books",
+      "query": "Claire de Rouen Books Shoreditch London",
+      "category": "etc",
+      "note": "11A Kingsland Rd. 2026.5 신규 오픈. 사진/아트북. 미로형 공간",
+      "lat": 51.526,
+      "lng": -0.0775
+    },
+    {
+      "id": 81,
+      "name": "Bookartbookshop",
+      "query": "Bookartbookshop London",
+      "category": "etc",
+      "note": "17 Pitfield St, Old Street. pataphysics/Atlas Press. 실험 출판. 목-토 12-6",
+      "lat": 51.527,
+      "lng": -0.087
+    },
+    {
+      "id": 82,
+      "name": "London Centre for Book Arts",
+      "query": "London Centre for Book Arts",
+      "category": "etc",
+      "note": "Fish Island, Hackney Wick. 활판/리소/제본. 갤러리+연구도서관+숍. 월-토 10-6",
+      "lat": 51.537,
+      "lng": -0.027
+    },
+    {
+      "id": 83,
+      "name": "Hunterian Museum",
+      "query": "Hunterian Museum London",
+      "category": "etc",
+      "note": "Lincoln's Inn Fields. 인체 해부학 3500+ 표본. curiosity cabinet. 무료. 사전예약 추천",
+      "lat": 51.517,
+      "lng": -0.1175
+    },
+    {
+      "id": 84,
+      "name": "Grant Museum of Zoology",
+      "query": "Grant Museum of Zoology London",
+      "category": "etc",
+      "note": "UCL, Euston. 10만 동물 표본. Wunderkammer. 무료. Hunterian과 도보 15분",
+      "lat": 51.525,
+      "lng": -0.134
+    },
+    {
+      "id": 85,
+      "name": "Cinema Museum",
+      "query": "Cinema Museum London",
+      "category": "etc",
+      "note": "Kennington. dead media 파라다이스. Chaplin 구빈원. 사전예약 필수. 7/11(토) 타겟",
+      "lat": 51.489,
+      "lng": -0.11
+    },
+    {
+      "id": 86,
+      "name": "BFI Mediatheque",
+      "query": "BFI Mediatheque London",
+      "category": "etc",
+      "note": "BFI Southbank 내. 18만+ 아카이브 무료 열람. Radiophonic Workshop, 실험 TV",
+      "lat": 51.5065,
+      "lng": -0.1145
+    },
+    {
+      "id": 87,
+      "name": "Batch Baby De Beauvoir",
+      "query": "Batch Baby De Beauvoir London",
+      "category": "cafe",
+      "note": "Rose Lipman Building. 비영리. Sprudge 세계 최우수 신규카페 2022. 게스트 로스터",
+      "lat": 51.539,
+      "lng": -0.077
+    },
+    {
+      "id": 88,
+      "name": "Climpson and Sons Broadway Market",
+      "query": "Climpson and Sons Broadway Market London",
+      "category": "cafe",
+      "note": "Broadway Market. East London 커피 개척자 2002~. 전 정육점. Dusty Knuckle 음식",
+      "lat": 51.535,
+      "lng": -0.0615
+    },
+    {
+      "id": 89,
+      "name": "Allpress Espresso",
+      "query": "Allpress Espresso Dalston London",
+      "category": "cafe",
+      "note": "56 Dalston Lane. 1930s warehouse. 로스팅 유리 관람. 영화 상영회",
+      "lat": 51.548,
+      "lng": -0.074
+    },
+    {
+      "id": 90,
+      "name": "Gallery Cafe St Margaret's House",
+      "query": "Gallery Cafe St Margaret's House London",
+      "category": "cafe",
+      "note": "Bethnal Green. 비건카페+아트센터. 전시/라이브/영화/스포큰워드",
+      "lat": 51.527,
+      "lng": -0.048
+    },
+    {
+      "id": 91,
+      "name": "Mare Street Market",
+      "query": "Mare Street Market London",
+      "category": "cafe",
+      "note": "117 Mare St, Hackney. Flying Horse커피+Stranger Than Paradise레코드+갤러리 한 건물",
+      "lat": 51.543,
+      "lng": -0.055
+    },
+    {
+      "id": 92,
+      "name": "WatchHouse Bermondsey",
+      "query": "WatchHouse Bermondsey London",
+      "category": "cafe",
+      "note": "199 Bermondsey St. 19세기 8각형 경비초소. 10석. Maltby Street 동선",
+      "lat": 51.499,
+      "lng": -0.082
+    },
+    {
+      "id": 93,
+      "name": "South London Louie",
+      "query": "South London Louie Peckham London",
+      "category": "cafe",
+      "note": "South London Gallery 안 카페. Redemption Roasters. 갤러리 무료",
+      "lat": 51.473,
+      "lng": -0.079
+    },
+    {
+      "id": 94,
+      "name": "Tayyabs Whitechapel",
+      "query": "Tayyabs Whitechapel London",
+      "category": "heavy",
+      "note": "Whitechapel. 1979~. 전설의 lamb chops. BYOB. 15-20파운드. food nerd 필수",
+      "lat": 51.515,
+      "lng": -0.062
+    },
+    {
+      "id": 95,
+      "name": "The Marksman",
+      "query": "The Marksman Hackney London",
+      "category": "heavy",
+      "note": "254 Hackney Rd. Michelin Pub of the Year. St. JOHN alumni. 일요일 로스트 최강",
+      "lat": 51.529,
+      "lng": -0.068
+    },
+    {
+      "id": 96,
+      "name": "Koya Ko Broadway Market",
+      "query": "Koya Ko Broadway Market London",
+      "category": "heavy",
+      "note": "Broadway Market Mews. Koya 분점. 수제 우동. 금-일 영업",
+      "lat": 51.536,
+      "lng": -0.062
+    },
+    {
+      "id": 97,
+      "name": "INIS Hackney Wick",
+      "query": "INIS Hackney Wick London",
+      "category": "heavy",
+      "note": "Fish Island 캐널사이드. British-Irish. 2024 오픈. Hackney Wick 현재 1순위",
+      "lat": 51.538,
+      "lng": -0.026
+    },
+    {
+      "id": 98,
+      "name": "Barge East Hackney Wick",
+      "query": "Barge East Hackney Wick London",
+      "category": "heavy",
+      "note": "125년 네덜란드 바지선 레스토랑. 테이스팅 55파운드. 캐널사이드",
+      "lat": 51.539,
+      "lng": -0.025
+    },
+    {
+      "id": 99,
+      "name": "Tonkotsu Haggerston",
+      "query": "Tonkotsu Haggerston London",
+      "category": "heavy",
+      "note": "Arch 334, Haggerston. 12시간 돈코츠 라멘. 자체 제면. railway arch",
+      "lat": 51.537,
+      "lng": -0.075
+    },
+    {
+      "id": 100,
+      "name": "Sutton and Sons",
+      "query": "Sutton and Sons Hackney London",
+      "category": "heavy",
+      "note": "218 Graham Rd. 생선가게→chippy. 비건 메뉴도 우수. East London fish&chips 1순위",
+      "lat": 51.54,
+      "lng": -0.056
+    },
+    {
+      "id": 101,
+      "name": "Banh",
+      "query": "Banh Dalston London",
+      "category": "light",
+      "note": "592 Kingsland Rd. 반미 샌드위치. 10파운드 미만. 런던 최고급 반미",
+      "lat": 51.544,
+      "lng": -0.076
+    },
+    {
+      "id": 102,
+      "name": "Voodoo Rays",
+      "query": "Voodoo Rays Dalston London",
+      "category": "light",
+      "note": "95 Kingsland High St. NYC 피자 바이 더 슬라이스. 금토 새벽1시까지. Cafe OTO 후 야식",
+      "lat": 51.548,
+      "lng": -0.0755
+    },
+    {
+      "id": 103,
+      "name": "Ridley Road Market",
+      "query": "Ridley Road Market Dalston London",
+      "category": "light",
+      "note": "Dalston Kingsland 역 앞. 150+ 노점. 괴즐레메/제르크치킨/터키시. 현금. 월-토",
+      "lat": 51.549,
+      "lng": -0.076
+    }
+  ]
+}
